@@ -1,0 +1,110 @@
+body {
+    background-color: navajowhite;
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    /* line-height: 150%; */
+    /* background-color: orangered; */
+}
+
+/* This is for the line above and below Title Name */
+.line {
+    height: 3px;
+    width: auto;
+    background-color: black;
+    border-radius: 100%;
+}
+
+.div_box {
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+.side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+.inner {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    /* align-items: center; */
+    /* justify-content: space-evenly; */
+}
+
+.div_box_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 35px;
+}
+
+.div_title {
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    background-color: gold;
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+}
+
+p {
+    text-align: justify;
+    margin: 10px;
+    padding: 10px;
+}
+
+.position {
+    background-color: aqua;
+    border-radius: 3px;
+}
+
+.Amogha {
+    max-width: 100%;
+    /* height: auto; */
+    border-radius: 15px;
+    /* border-radius: 2px solid white; */
+}
+
+.icon {
+    height: 50px;
+    width: auto;
+    /* border-radius: 15px; */
+}
+
+#works {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+    gap: 10px;
+}
+
+.div_box_photo {
+    border: 2px solid;
+    border-radius: 15px;
+    height: auto;
+    width: auto;
+    /* max-width:fit-content; */
+}
+
+.credits {
+    text-align: center;
+}
+
+.end_line {
+    height: 1px;
+    width: auto;
+    background-color: black;
+    border-radius: 100%;
+}
