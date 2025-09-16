@@ -8,7 +8,8 @@
     stack: ["html", "css", "js",],
     code: "Code/GitHub Link",
     live: "Live/Hosted Link",
-    time: "Duration of the project"
+    time: "Duration of the project",
+    status: "Completed"
 },
 */
 
@@ -21,7 +22,8 @@ const techProjectsData = [
         stack: ["html", "css", "js",],
         code: "https://github.com/amogharajsandur/Semester2-CapstoneProject",
         live: "https://amogharajsandur.github.io/Semester2-CapstoneProject/",
-        time: "48 hours"
+        time: "48 hours",
+        status: "Completed"
     },
     {
         img: "./images/tech-projects/google-chrome-new-tab-frontend-clone.png",
@@ -31,7 +33,8 @@ const techProjectsData = [
         stack: ["html", "css",],
         code: "https://github.com/amogharajsandur/GoogleChromeNewTabClone",
         live: "https://amogharajsandur.github.io/GoogleChromeNewTabClone/",
-        time: "2 hours"
+        time: "2 hours",
+        status: "Completed"
     },
     {
         img: "./images/tech-projects/counter-click.png",
@@ -41,7 +44,8 @@ const techProjectsData = [
         stack: ["html", "css",],
         code: "https://github.com/amogharajsandur/CounterClick.vjsp",
         live: "https://amogharajsandur.github.io/CounterClick.vjsp/",
-        time: "3 hours"
+        time: "3 hours",
+        status: "Completed"
     },
     {
         img: "./images/tech-projects/amogharajsandur-portfolio-v0.png",
@@ -51,7 +55,8 @@ const techProjectsData = [
         stack: ["html", "css",],
         code: "https://github.com/amogharajsandur/amogharajsandur-portfolio-v0",
         live: "https://amogharajsandur.github.io/amogharajsandur-portfolio-v0/",
-        time: "2 hours"
+        time: "2 hours",
+        status: "In Progress"
     },
     
 ]

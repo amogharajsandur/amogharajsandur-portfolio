@@ -1,11 +1,56 @@
 section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1rem;
+    justify-content: center;
+    margin-top: 6rem;
 }
 
 .card {
     padding: 1rem;
     margin: 1rem;
+    border-radius: 1.5rem;
+    border: 2px solid #ffffff;
+    background-color: #292929;
+    position: relative;
 }
+
+.card:hover {
+    border: 3px solid #ffa31a;
+}
+
+    .card > img {
+        height: 16rem;
+        width: auto;
+    }
+
+    .card > p {
+        text-align: justify;
+    }
+
+.status {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 1rem;
+    /* opacity: 75%; */
+    font-weight: bolder;
+}
+
+    .green {
+        background-color: #1E8449;
+        border: 1px solid #37d93d;
+        color: #37d93d;
+    }
+
+    .red {
+        background-color: #a62c1e;
+        border: 1px solid #fc5441;
+        color: #fc5441;
+    }
+
+    .yellow {
+        background-color: #f1c40f;
+    }
