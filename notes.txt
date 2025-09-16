@@ -1,0 +1,5 @@
+Color Pallete:
+    #ffa31a
+    #292929
+    #1b1b1b
+    #ffffff
