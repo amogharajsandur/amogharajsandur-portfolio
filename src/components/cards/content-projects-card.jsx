@@ -1,5 +1,5 @@
-import techProjectsData from "../../data/TechProjects";
-import "./tech-projects-card.css"
+import ContentProjectsData from "../../data/ContentProjects"
+import "./content-projects-card.css"
 
 function projectStatus(status) {
     if (status === "Completed") {
@@ -14,7 +14,7 @@ function projectStatus(status) {
 export default function TechProjectsCard() {
     return (
         <section>
-            {techProjectsData.map((project) => {
+            {ContentProjectsData.map((project) => {
                 return (
                     <div className="card">
                         <img src={project.img} alt={project.title} draggable="false" />

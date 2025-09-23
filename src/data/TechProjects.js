@@ -17,6 +17,7 @@ const techProjectsData = [
     {
         img: "./images/tech-projects/omvaibhava-store-products-page.png",
         gif: "Animated Image of the project (on hover)",
+        video: "./videos/tech-projects/omvaibhava-store-demo.mov",
         title: "OmVaibhava Store (Semester 2 Capstone Project)",
         desc: "OmVaibhava Store is Amogha's Semester 2 Capstone Project.",
         stack: ["html", "css", "js",],

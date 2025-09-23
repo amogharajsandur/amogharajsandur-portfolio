@@ -5,10 +5,10 @@ export default function Header() {
         <header>
             <h1>Amogha Raj Sandur</h1>
             <ul>
-                <li>Tech</li>
-                <li>Business</li>
-                <li>Content</li>
-                <li>About</li>
+                <a><li>Tech</li></a>
+                <a><li>Business</li></a>
+                <a><li>Content</li></a>
+                <a><li>About</li></a>
             </ul>
         </header>
     )

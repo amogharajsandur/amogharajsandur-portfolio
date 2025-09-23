@@ -19,13 +19,24 @@ section {
     border: 3px solid #ffa31a;
 }
 
-    .card > img {
+    .card img {
         height: 16rem;
         width: auto;
+        object-fit: cover;
     }
 
     .card > p {
         text-align: justify;
+    }
+
+    .card > a {
+        text-decoration: none;
+        color: #ffa31a;
+    }
+
+    .card > a:hover {
+        text-decoration: underline;
+        transition: all ease-in-out 0.3s;
     }
 
 .status {
@@ -52,5 +63,7 @@ section {
     }
 
     .yellow {
-        background-color: #f1c40f;
+        background-color: #f39c12;
+        border: 1px solid #F1C40F;
+        color: #F1C40F;
     }
