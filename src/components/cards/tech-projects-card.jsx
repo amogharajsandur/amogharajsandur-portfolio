@@ -1,5 +1,5 @@
 import techProjectsData from "../../data/TechProjects";
-import "./tech-projects-card.css"
+import "./tech-projects-card.scss"
 
 function projectStatus(status) {
     if (status === "Completed") {

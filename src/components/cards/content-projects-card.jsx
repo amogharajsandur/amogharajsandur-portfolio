@@ -1,5 +1,5 @@
 import ContentProjectsData from "../../data/ContentProjects"
-import "./content-projects-card.css"
+import "./content-projects-card.scss"
 
 function projectStatus(status) {
     if (status === "Completed") {
