@@ -16,7 +16,7 @@ export default function TechProjectsCard() {
         <section>
             {techProjectsData.map((project) => {
                 return (
-                    <div className="card">
+                    <div className="card" key={project.title.trim().split(" ").join("")}>
                         <img src={project.img} alt={project.title} draggable="false" />
                         <h3>{project.title}</h3>
                         <p>{project.desc}</p>

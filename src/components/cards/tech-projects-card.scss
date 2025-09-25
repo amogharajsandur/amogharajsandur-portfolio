@@ -1,3 +1,6 @@
+@use "./../../styles/variables" as *;
+@use "./../../styles/mixins";
+
 section {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -10,13 +13,13 @@ section {
     padding: 1rem;
     margin: 1rem;
     border-radius: 1.5rem;
-    border: 2px solid #ffffff;
-    background-color: #292929;
+    border: 2px solid $color-white-primary;
+    background-color: $color-black-secondary;
     position: relative;
 }
 
 .card:hover {
-    border: 3px solid #ffa31a;
+    border: 3px solid $color-accent-primary;
 }
 
     .card img {
@@ -31,7 +34,7 @@ section {
 
     .card > a {
         text-decoration: none;
-        color: #ffa31a;
+        color: $color-accent-primary;
     }
 
     .card > a:hover {
